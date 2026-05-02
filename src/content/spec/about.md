@@ -1,18 +1,17 @@
 
 This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
 
-::github{repo="LyraVoid/Mizuki"}
 
-## 🌟 Theme Features
+## 🌟 我是谁
 
-### 🎨 Design & User Experience
+### 🎨 一名默默无闻的高中电教委员
 - **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
 - **Fully Responsive** - Optimized for all devices from mobile to desktop
 - **Dark/Light Mode** - Automatic theme switching with smooth transitions
 - **Beautiful Typography** - Enhanced readability with JetBrains Mono font
 - **Smooth Animations** - Fluid page transitions and interactive elements
 
-### 🔍 Content & Search
+### 🔍 充电头爱好者
 - **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
 - **Enhanced Markdown** - Extended syntax with code highlighting and math support
 - **Interactive Table of Contents** - Auto-scroll navigation for long articles
@@ -22,7 +21,7 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
 
 
 
-### 📱 Special Pages
+### 📱 摄影佬（？）
 - **Anime Tracking Page** - Track your anime watching progress with ratings
 - **Friends Links Page** - Showcase friend websites with beautiful cards
 - **Diary/Moments Page** - Share life moments like social media posts
