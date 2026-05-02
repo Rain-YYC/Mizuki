@@ -125,16 +125,43 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+				"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"https://cfimgbed-cncdn.236668.xyz/file/1772041474495.webp",
+				"https://rainimg.236668.xyz/file/1777749747897_050.webp",
+				"https://rainimg.236668.xyz/file/1777749742752_019.webp",
+				"https://rainimg.236668.xyz/file/1777749740618_004.webp",
+				"https://rainimg.236668.xyz/file/1777749746436_002.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -142,7 +169,7 @@ export const siteConfig: SiteConfig = {
 
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-			interval: 3, // 轮播间隔时间（秒）
+			interval: 5, // 轮播间隔时间（秒）
 		},
 
 		waves: {
@@ -154,7 +181,7 @@ export const siteConfig: SiteConfig = {
 		// PicFlow API支持(智能图片API)
 		imageApi: {
 			enable: false, // 启用图片API
-			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
+			url: "https://randompic.api.236668.xyz/api", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -162,13 +189,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "わたしの部屋", // 主页横幅主标题
+			title: "小麦君の小屋", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
+				"原此行，终抵群星",
+				"欲买桂花同载酒，终不似，少年游",
+				"逸一时，误一世，逸久逸久罢已凌",
+				"原神，启动！",
 				"今日はなんでもない日。でも、ちょっとだけいい日",
 			],
 			typewriter: {
@@ -176,7 +203,7 @@ export const siteConfig: SiteConfig = {
 
 				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 15000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
@@ -245,16 +272,68 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749100124_325.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749069354_293.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749056970_291.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749029463_275.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777749034944_270.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748949430_184.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748935289_175.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748929391_172.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748919392_【哲风壁纸】2024-11-03_17_47_36.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748816038_169.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799703_161.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748799315_159.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748783379_155.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748773316_154.webp",
+			"https://rainimg.236668.xyz/file/imgbanner/1777748763574_151.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
