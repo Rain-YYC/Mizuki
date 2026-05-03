@@ -20,7 +20,9 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
     - 联想C140充电头
 - **测试设备**
     - 炬为DL24W数控负载仪
-    
+    - 维简K2功率表
+    - 维简CC1功率表
+    - 瑞垦线阻套件
 
 
 
